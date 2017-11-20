@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+                android:id="@+id/rl_root"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_marginTop="@dimen/x8"
+    android:layout_marginLeft="@dimen/x8"
+    android:src="@drawable/ic_launcher"
+    android:id="@+id/image_head_fragmentMessage"
+    android:layout_width="@dimen/x32"
+    android:layout_height="@dimen/x32" />
+    <TextView
+        android:textSize="@dimen/x10"
+        android:text="河图他老公浮若"
+        android:id="@+id/text_name_fragmentMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/other_pink"
+        android:layout_alignTop="@+id/text_time_fragmentMessage"
+        android:layout_alignLeft="@+id/text_content_fragmentMessage"
+        android:layout_alignStart="@+id/text_content_fragmentMessage" />
+    <TextView
+        android:textSize="@dimen/x11"
+        android:textColor="@color/black"
+        android:id="@+id/text_content_fragmentMessage"
+        android:layout_below="@+id/text_name_fragmentMessage"
+        android:text="我要好好的缠着你，从此立志得带特关"
+        android:layout_toRightOf="@+id/image_head_fragmentMessage"
+        android:layout_marginTop="@dimen/x15"
+        android:layout_marginLeft="@dimen/x8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text_time_fragmentMessage"
+        android:textSize="30px"
+        android:text="6小时前"
+        android:textColor="@color/item_fragmentMessage_time"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/x14"
+        android:layout_marginRight="@dimen/x10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<RelativeLayout
+    android:id="@+id/re_fragmentMessage"
+    android:layout_below="@+id/text_content_fragmentMessage"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="@dimen/x13"
+        android:id="@+id/text_replyName_fragmentMessage"
+        android:textSize="@dimen/x10"
+        android:layout_marginLeft="@dimen/x48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/other_pink"
+        android:text="dora:"/>
+
+ <!--   <TextView
+        android:id="@+id/text_reply_fragmentMessage"
+        android:layout_marginTop="@dimen/x13"
+        android:textSize="@dimen/x10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text_replyName_fragmentMessage"
+        android:text="好了好了~~"/>-->
+
+    <TextView
+        android:layout_marginTop="@dimen/x8"
+        android:id="@+id/text_replyName2_fragmentMessage"
+        android:textSize="@dimen/x10"
+        android:layout_marginLeft="@dimen/x48"
+        android:layout_below="@+id/text_replyName_fragmentMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/other_pink"
+        android:text="河图他老公若浮:"/>
+<!--
+
+    <TextView
+        android:id="@+id/text_reply2_fragmentMessage"
+        android:layout_marginTop="@dimen/x8"
+        android:textSize="@dimen/x10"
+        android:layout_below="@+id/text_reply_fragmentMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text_replyName2_fragmentMessage"
+        android:text="咋那么听话"/>
+-->
+
+    <TextView
+        android:id="@+id/text_selectNum_fragmentMessage"
+        android:textColor="@color/other_pink"
+        android:text="查看更多"
+        android:textSize="@dimen/x8"
+        android:layout_below="@+id/text_replyName2_fragmentMessage"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="27px"
+        android:layout_marginRight="@dimen/x15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+    <View
+        android:layout_below="@+id/re_fragmentMessage"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="27px"
+        android:background="@color/custom_gray"/>
+
+</RelativeLayout>

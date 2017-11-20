@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/other_share"
+        android:icon="@drawable/ic_action_share_bar"
+        android:title="搜索游戏"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/other_set"
+        android:icon="@drawable/ic_action_set"
+        android:title="下载管理"
+        app:showAsAction="always"/>
+</menu>

@@ -1,0 +1,502 @@
+[
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_32.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_32.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_16.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_16.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_6.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_6.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_47.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_47.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_63.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_63.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_5.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_5.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_33.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_33.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_29.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_29.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_64.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_64.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_76.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_76.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\delete.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\delete.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_65.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_65.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_49.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_49.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_46.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_46.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_62.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_62.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_35.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_35.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_51.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_51.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_52.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_52.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_74.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_74.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_58.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_58.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_13.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_13.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_3.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_3.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_8.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_8.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_36.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_36.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_2.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_2.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_61.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_61.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_30.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_30.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_67.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_67.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_14.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_14.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_45.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_45.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_42.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_42.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_48.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_48.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_17.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_17.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_23.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_23.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_26.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_26.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_39.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_39.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_20.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_20.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_24.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_24.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_69.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_69.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_0.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_0.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_55.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_55.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_10.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_10.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_71.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_71.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_72.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_72.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_41.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_41.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_25.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_25.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_56.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_56.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_11.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_11.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_70.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_70.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_73.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_73.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_68.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_68.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_54.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_54.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_40.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_40.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_57.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_57.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_19.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_19.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_43.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_43.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_38.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_38.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_27.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_27.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_21.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_21.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_60.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_60.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_66.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_66.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_44.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_44.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_18.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_18.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_75.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_75.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_22.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_22.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_59.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_59.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_53.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_53.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_50.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_50.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_28.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_28.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_37.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_37.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_31.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_31.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_34.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_34.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_15.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_15.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_12.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_12.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_1.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_1.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_7.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_7.png"
+    },
+    {
+        "merged": "E:\\AndroidProject\\wxingyuyou\\easeui\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\e_4.png",
+        "source": "E:\\AndroidProject\\wxingyuyou\\easeui\\src\\main\\res\\drawable-xxhdpi\\e_4.png"
+    }
+]

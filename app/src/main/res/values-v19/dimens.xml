@@ -1,0 +1,4 @@
+<resources>
+    <!--状态栏-->
+    <dimen name="statusbar_view_height">25dp</dimen>
+</resources>

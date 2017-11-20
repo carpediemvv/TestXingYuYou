@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+                android:background="@color/black"
+              android:layout_height="match_parent"
+           >
+    <com.bm.library.PhotoView
+        android:id="@+id/PhotoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        />
+    <ProgressBar android:id="@+id/loading_progressBar"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:indeterminate="false" android:indeterminateDrawable="@drawable/video_onloading" />
+    />
+    <TextView
+        android:id="@+id/tv_image_real"
+        android:layout_width="@dimen/x100"
+        android:layout_height="@dimen/x30"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/x38"
+        android:background="@color/white_55"
+        android:gravity="center"
+        android:text="查看原图"
+        android:textColor="@color/white_88"
+        android:textSize="@dimen/x12"/>
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xingyuyou.xingyuyou.activity.AboutActivity">
+
+    <include layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x20"
+        android:layout_marginRight="@dimen/x20"
+        android:layout_marginTop="@dimen/x20"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x27"
+            android:layout_marginBottom="@dimen/x3"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_phone_number"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/x27"
+                android:layout_weight="2"
+                android:background="@android:color/transparent"
+                android:hint="请输入手机号码"
+                android:inputType="phone"
+                android:textSize="@dimen/x11"
+                />
+
+            <Button
+                android:id="@+id/bt_send_code"
+                android:layout_width="@dimen/x78"
+                android:layout_height="@dimen/x25"
+                android:background="@drawable/register_ripple_bg_button"
+                android:text="获取验证码"
+                android:textColor="@color/white"
+                android:textSize="@dimen/x11"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e0e0e0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/x8"
+            android:text="暂时只支持大陆账号"
+            android:textSize="@dimen/x8"/>
+
+        <EditText
+            android:id="@+id/et_phone_code"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x27"
+            android:layout_marginBottom="@dimen/x3"
+            android:layout_marginTop="@dimen/x8"
+            android:background="@android:color/transparent"
+            android:hint="请输入手机验证码"
+            android:inputType="number"
+            android:textSize="@dimen/x11"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e0e0e0"/>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x27"
+            android:layout_marginTop="@dimen/x2"
+            android:layout_marginBottom="@dimen/x3"
+            android:background="@android:color/transparent"
+            android:hint="请输入登录密码"
+            android:inputType="textPassword"
+            android:textSize="@dimen/x11"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e0e0e0"/>
+
+        <EditText
+            android:id="@+id/et_password_again"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x27"
+            android:layout_marginTop="@dimen/x2"
+            android:layout_marginBottom="@dimen/x3"
+            android:background="@android:color/transparent"
+            android:hint="重复密码"
+            android:inputType="textPassword"
+            android:textSize="@dimen/x11"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#e0e0e0"/>
+
+        <Button
+            android:id="@+id/bt_register_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x26"
+            android:layout_marginTop="@dimen/x10"
+            android:background="@drawable/register_ripple_bg_button"
+            android:text="绑定手机"
+            android:textColor="@color/white"
+            android:textSize="@dimen/x11"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PushSDK/PushSDK.iml" filepath="$PROJECT_DIR$/PushSDK/PushSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XingYuYou.iml" filepath="$PROJECT_DIR$/XingYuYou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/easeui/easeui.iml" filepath="$PROJECT_DIR$/easeui/easeui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageselector/imageselector.iml" filepath="$PROJECT_DIR$/imageselector/imageselector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toprightmenu/toprightmenu.iml" filepath="$PROJECT_DIR$/toprightmenu/toprightmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wxingyuyou.iml" filepath="$PROJECT_DIR$/wxingyuyou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xrecyclerview/xrecyclerview.iml" filepath="$PROJECT_DIR$/xrecyclerview/xrecyclerview.iml" />
+    </modules>
+  </component>
+</project>

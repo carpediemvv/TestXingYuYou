@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <Button
+        android:layout_marginTop="35dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/popupwindow_Button_saveProject"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="68dp"
+        android:background="@mipmap/image_card"
+        android:layout_width="65dp"
+        android:layout_height="91dp"
+         />
+
+    <Button
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="68dp"
+        android:id="@+id/popupwindow_Button_abandonProject"
+        android:background="@mipmap/video_short"
+        android:layout_width="65dp"
+        android:layout_height="91dp"
+        android:layout_centerHorizontal="true"
+       />
+
+    <Button
+        android:id="@+id/popupwindow_Button_longvideo"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginRight="40dp"
+        android:background="@mipmap/video_long"
+        android:layout_width="65dp"
+        android:layout_height="91dp"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+
+
+
+</RelativeLayout>

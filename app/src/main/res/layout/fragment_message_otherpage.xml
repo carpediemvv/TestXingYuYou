@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+>
+    <LinearLayout
+        android:id="@+id/txt_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listView_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarSize="@dimen/x3"
+            android:scrollbarThumbVertical="@color/blue">
+        </android.support.v7.widget.RecyclerView>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+    <View
+        android:background="@color/bg_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <LinearLayout
+        android:id="@+id/ll_edit_bottom"
+        android:visibility="visible"
+        android:layout_margin="@dimen/x5"
+        android:background="@drawable/bg_gray_reply"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x35">
+        <ImageView
+            android:src="@drawable/ic_action_edit"
+            android:layout_marginLeft="@dimen/x13"
+            android:layout_width="@dimen/x20"
+            android:layout_height="@dimen/x20"/>
+        <TextView
+            android:layout_marginLeft="@dimen/x10"
+            android:gravity="center_vertical"
+            android:text="写下你的留言吧"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x20"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:visibility="gone"
+        android:id="@+id/ll_emotion_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <include layout="@layout/message_board_reply_layout"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+
+  <!--      <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        &lt;!&ndash;itemBackground设置menu菜单背景色&ndash;&gt;
+        <item name="android:itemBackground">@color/colorPrimary</item>
+        <item name="overlapAnchor">false</item>
+        <item name="actionMenuTextColor">@color/white</item>-->
+
+    </style>
+
+    <style name="ImageSelectorTheme" parent="BaseTheme" >
+    </style>
+
+</resources>

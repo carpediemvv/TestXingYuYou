@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+  >
+
+    <RelativeLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x27"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_theme_circle_item_icon"
+            android:layout_width="@dimen/x18"
+            android:layout_height="@dimen/x18"
+            android:layout_marginLeft="@dimen/x8"
+            android:src="@drawable/ic_theme_circle_recommend"/>
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_theme_circle_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_theme_circle_item_icon"
+            android:text="游戏"
+            android:layout_marginLeft="@dimen/x5"
+            android:textColor="#505050"
+            android:textSize="@dimen/x13"/>
+        <LinearLayout
+            android:id="@+id/ll_change_theme_item"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/x8"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_theme_circle_item_change"
+                android:layout_width="@dimen/x18"
+                android:layout_height="@dimen/x18"
+                android:layout_marginLeft="@dimen/x8"
+                android:layout_marginRight="@dimen/x5"
+                android:src="@drawable/ic_theme_circle_change"/>
+            <TextView
+                android:id="@+id/tv_theme_circle_item_change_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="换一换"
+                android:textColor="#505050"
+                android:textSize="@dimen/x10"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/item_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/bt_all_theme_circle"
+        android:layout_marginTop="@dimen/x10"
+        android:layout_width="@dimen/x78"
+        android:layout_height="@dimen/x27"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_theme_circle_bt_more"
+        android:text="查看全部"
+        android:elevation="0dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/x10"/>
+    <View
+        android:layout_marginTop="@dimen/x13"
+        android:layout_marginBottom="@dimen/x4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x3"
+        android:background="#f1f1f1"/>
+</LinearLayout>

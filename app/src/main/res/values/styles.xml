@@ -1,0 +1,292 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Design.Light.NoActionBar">
+        <!--recyclerView获取的系统分割线-->
+        <!-- <item name="android:listDivider">@drawable/divider_bg</item>-->
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--itemBackground设置menu菜单背景色-->
+        <item name="android:itemBackground">@color/colorPrimary</item>
+        <item name="overlapAnchor">false</item>
+        <item name="actionMenuTextAppearance">@style/MenuTextStyle</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <!-- <item name="actionOverflowMenuStyle">@style/MenuStyle</item>-->
+    </style>
+    <!--为了dialog，从上面拿出这两行，这是整个app字体颜色-->
+    <!-- <item name="android:textColorPrimary">@color/textColorPrimary</item>
+            <item name="colorControlNormal">@color/colorControlNormal</item>-->
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/x11</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">@dimen/x5</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">@dimen/x10</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@android:color/black</item>
+        <!--下划线颜色-->
+        <item name="colorControlNormal">#c9c9c9</item>
+        <item name="colorControlActivated">#f8d7d8</item>
+        <!--下划线-->
+        <!--<item name="editTextBackground">@drawable/abc_edit_text_material</item>-->
+    </style>
+
+    <style name="MenuTextStyle" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/x11</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="@style/Theme.AppCompat.NoActionBar">
+        <!-- 用于控件popmenu的宽度-->
+        <item name="android:width">50dp</item>
+    </style>
+
+    <style name="splashtheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@drawable/splash_icon</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="bottom_tab_style">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:drawablePadding">1dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/bottom_tab_textcolor_main</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="OverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">
+        <!--这里更改menu菜单图标-->
+        <!--  <item name="android:src">@mipmap/ic_launcher</item>-->
+    </style>
+
+    <style name="MenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:popupBackground">#3F51B5</item>
+        <!--距离标题栏的距离-->
+        <!--<item name="android:dropDownVerticalOffset">29dip</item>-->
+    </style>
+
+    <style name="SmallGreyTextView">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">@dimen/textSize_small</item>
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="colorButtonNormal">#99303F9F</item>
+    </style>
+
+    <!--loading-->
+    <style name="style_progressbar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progressbar</item>
+    </style>
+    <!--popwindow-->
+    <style name="animatorUP" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_up_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_out</item>
+    </style>
+
+    <style name="Cover">
+        <item name="android:layout_height">@dimen/profile_picture_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="Name" parent="@style/TextLabel">
+        <item name="android:maxLines">2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextLabel">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="SubTitle" parent="@style/TextLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Brief" parent="@style/TextLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="Card">
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardMaxElevation">@dimen/card_elevation</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="FourIconGame">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!--个人中心-->
+    <style name="ManageTextView">
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/x12</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ManageRelativeLayout">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:layout_height">@dimen/x40</item>
+    </style>
+    <!--个人资料-->
+    <style name="UserInfoRelativeLayout">
+        <item name="android:paddingLeft">@dimen/x20</item>
+        <item name="android:paddingRight">@dimen/x20</item>
+        <item name="android:layout_height">@dimen/x40</item>
+    </style>
+
+    <style name="UserInfoTextView">
+        <item name="android:textSize">@dimen/x14</item>
+
+    </style>
+    <!--  星星评价-->
+    <style name="startRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/shape_game_detail_star_bg</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+
+    <style name="My.Widget.MaterialRatingBar.RatingBar" parent="android:Widget.RatingBar">
+        <!--
+        Disabled for correct behavior on Android 4.x, see
+        https://github.com/android/platform_frameworks_base/commit/911743652b597057a1bd7ef8a921e9ff8dce0f4a#diff-149f45c5ff2d3185bb79688ba17bc432L536
+        <item name="android:progressDrawable">@null</item>
+        -->
+        <item name="android:progressDrawable">@drawable/shape_game_detail_star_bg</item>
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:maxHeight">36dp</item>
+    </style>
+
+    <!-- 个人资料设置样式 -->
+    <style name="ShareDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!--toolbar字体大小-->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/x12</item>
+    </style>
+    <!--修改搜索样式-->
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+
+    </style>
+
+    <style name="baseTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+
+    <style name="AliyunVideoUIStytle" >
+        <item name="qusnap_background_color">@color/color_bg</item> //背景主题色
+        <item name="qusnap_tint_color">@color/tint_color</item> //录制进度条颜色
+        <item name="qusnap_timeline_backgound_color">@color/timeline_backgound_color</item> //录制进度条背景色
+        <item name="qusnap_timeline_del_backgound_color">@color/timeline_background_del_color</item> //录制删除进度颜色
+        <item name="qusnap_back_icon">@mipmap/icon_back</item> // 返回按钮图标
+        <item name="qusnap_switch_light_icon">@drawable/snap_switch_light_selector</item> //闪光灯选择器
+        <item name="qusnap_switch_light_icon_disable">@mipmap/icon_light_dis</item>// 闪光灯禁用图标
+        <item name="qusnap_switch_light_icon_visibility">visible</item> // 闪光灯显隐属性
+        <item name="qusnap_switch_camera_icon">@drawable/snap_switch_camera</item> //摄像头选择器
+        <item name="qusnap_switch_camera_icon_visibility">visible</item> //摄像头显隐属性
+        <item name="qusnap_beauty_icon">@drawable/snap_switch_beauty</item> //美颜选择器
+        <item name="qusnap_beauty_icon_visibility">visible</item> // 美颜显隐属性
+        <item name="qusnap_record_icon">@drawable/snap_record_state_selector</item> //录制选择器
+        <item name="qusnap_delete_icon">@drawable/snap_icon_delete</item> //删除选择器
+        <item name="qusnap_complete_icon">@drawable/snap_icon_complete</item> //完成选择器
+        <item name="qusnap_gallery_icon">@mipmap/icon_default</item> //相册按钮
+        <item name="qusnap_gallery_icon_visibility">gone</item>//相册的显示隐藏
+        <item name="qusnap_time_txt_color">@android:color/white</item> //录制时间文字颜色
+        <item name="qusnap_time_txt_size">15dp</item> //录制时间文字大小
+        <item name="qusnap_time_txt_visibility">visible</item> //录制时间文字显隐属性
+        <item name="qusnap_time_line_pos_y">0dp</item> //录制进度条向上偏移量
+        <item name="qusnap_crop_sweep_left">@mipmap/icon_sweep_left</item> //裁剪滑动条左图标
+        <item name="qusnap_crop_sweep_right">@mipmap/icon_sweep_right</item> //裁剪滑动条右图标
+        <item name="qusnap_crop_seek_frame">@mipmap/icon_frame</item> //裁剪播放帧进度图标
+        <item name="qusnap_crop_seek_padding_color">@android:color/holo_red_dark</item> //裁剪滑动条上下边框颜色
+        <item name="qusnap_crop_icon_transform">@drawable/snap_transform_selector</item> //裁剪模式切换选择器
+        <item name="qusnap_crop_icon_transform_visibility">visible</item> //裁剪模式显隐属性
+        <item name="qusnap_crop_time_txt_color">@android:color/white</item> //裁剪视频时长文字颜色
+        <item name="qusnap_crop_time_txt_size">15dp</item> //裁剪视频时长文字大小
+        <item name="qusnap_crop_txt_visibility">visible</item> //裁剪视频时长文字显隐属性
+    </style>
+    <!-- popupwindow 动画 -->
+    <style name="Animation">
+        <item name="android:windowEnterAnimation">@anim/enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/out_anim</item>
+    </style>
+
+    <style name="MyCommonDialog" parent="android:Theme.Dialog">
+        <!-- 背景颜色及透明程度 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 是否没有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否背景模糊 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 设置背景模糊的透明度-->
+        <item name="android:backgroundDimAmount">0.3</item>
+    </style>
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+</resources>

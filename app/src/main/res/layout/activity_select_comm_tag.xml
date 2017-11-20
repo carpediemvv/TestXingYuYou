@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xingyuyou.xingyuyou.activity.SelectCommTagActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:contentInsetStart="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x40"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:navigationIcon="@drawable/ic_action_back"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <com.xingyuyou.xingyuyou.views.EditTextWithDel
+                android:id="@+id/et_search"
+                android:hint="搜索加入社区"
+                android:singleLine="true"
+                android:paddingLeft="16dp"
+                android:textSize="14dp"
+                android:background="@drawable/shape_border_grey"
+                android:layout_width="@dimen/x220"
+                android:layout_height="@dimen/x22" />
+            <TextView
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:id="@+id/sure_selectcommtag"
+                android:text="确定"
+                android:textSize="15dp"
+                android:background="@color/other_pink"
+                android:layout_width="50dp"
+                android:layout_height="30dp" />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <ListView
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

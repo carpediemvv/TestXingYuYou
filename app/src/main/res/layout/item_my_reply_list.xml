@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:background="#fafafa"
+                android:id="@+id/cl_item_onclick"
+                android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_user_photo"
+        android:src="@drawable/ic_launcher"
+        android:layout_marginTop="@dimen/x8"
+        android:layout_marginLeft="@dimen/x8"
+        android:layout_width="@dimen/x33"
+        android:layout_height="@dimen/x33" />
+    <TextView
+        android:textColor="#575757"
+        android:textSize="@dimen/x10"
+        android:id="@+id/tv_user_name"
+        android:layout_marginTop="@dimen/x12"
+        android:text="河图他老公若浮"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:visibility="gone"
+        android:textColor="#575757"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/x10"
+        android:id="@+id/tv_reply_floor"
+        android:layout_marginTop="@dimen/x12"
+        android:text="23"
+        android:layout_marginRight="@dimen/x5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#9d9d9d"
+        android:textSize="@dimen/x10"
+        android:id="@+id/tv_reply_title"
+        android:layout_marginTop="@dimen/x10"
+        android:text="我要好好缠你，再次励志得到特关"
+        android:layout_below="@+id/tv_user_name"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_reply_content"
+        android:layout_marginTop="@dimen/x6"
+        android:background="#ECECEC"
+        android:textColor="#505050"
+        android:text="【图片】"
+        android:paddingLeft="20dp"
+        android:textSize="@dimen/x10"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/tv_reply_title"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_width="@dimen/x264"
+        android:layout_height="@dimen/x26" />
+
+    <TextView
+        android:id="@+id/text_time_manager"
+        android:textSize="@dimen/x8"
+        android:textColor="#505050"
+        android:layout_marginTop="@dimen/x6"
+        android:text="四天前"
+        android:layout_marginBottom="@dimen/x8"
+        android:layout_below="@+id/tv_reply_content"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_below="@+id/text_time_manager"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/custom_gray"/>
+</RelativeLayout>

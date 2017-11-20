@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_item_onclick"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_gray"
+    >
+
+    <ImageView
+        android:id="@+id/iv_user_photo"
+        android:layout_width="@dimen/x30"
+        android:layout_height="@dimen/x30"
+        android:layout_margin="@dimen/x10"
+        android:src="@mipmap/guanyu"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x30"
+        android:layout_marginTop="@dimen/x10"
+        android:layout_toRightOf="@+id/iv_user_photo"
+        >
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x12"
+            tools:text="昵称"/>
+
+        <TextView
+            android:id="@+id/tv_commo_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_user_name"
+            android:text="18.10"
+            android:textSize="@dimen/x10"/>
+
+        <ImageView
+            android:id="@+id/iv_zan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_zan_num"
+            android:paddingBottom="@dimen/x5"
+            android:paddingTop="@dimen/x5"
+            android:src="@drawable/ic_zan"/>
+
+        <TextView
+            android:id="@+id/tv_zan_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x10"
+            android:textColor="@color/colorPrimary"
+            tools:text="555"/>
+
+
+    </RelativeLayout>
+
+    <RatingBar
+        android:id="@+id/rb_score"
+        style="@style/startRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_item"
+        android:layout_marginLeft="@dimen/x50"
+        android:isIndicator="true"
+        android:max="5"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rb_score"
+        android:layout_marginLeft="@dimen/x50"
+        android:layout_marginRight="@dimen/x10"
+        android:layout_marginTop="@dimen/x10"
+        android:background="@drawable/bg_game_detail_commo_text"
+        android:paddingLeft="@dimen/x10"
+        android:paddingRight="@dimen/x10"
+        android:paddingTop="@dimen/x10">
+
+        <TextView
+            android:id="@+id/tv_reply_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/x12"
+            />
+
+        <ImageView
+            android:id="@+id/iv_game_intro_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_reply_content"
+            android:layout_centerHorizontal="true"
+            android:tint="@color/colorPrimary"
+            app:srcCompat="@drawable/ic_expand_more_black_24dp"
+            />
+    </RelativeLayout>
+
+
+    <!--  <View
+          android:layout_width="0dp"
+          android:layout_height="1px"
+          app:layout_constraintBottom_toBottomOf="parent"
+          android:background="@color/custom_gray"
+          app:layout_constraintRight_toRightOf="parent"
+          app:layout_constraintLeft_toLeftOf="parent"
+          android:layout_marginTop="1dp"
+          app:layout_constraintTop_toBottomOf="@+id/tv_reply_time"/>-->
+
+
+</RelativeLayout>

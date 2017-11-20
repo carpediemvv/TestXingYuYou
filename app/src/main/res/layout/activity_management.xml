@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="0dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:navigationIcon="@drawable/ic_action_back"
+        app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/user_photo"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_user_defalut"/>
+
+            <TextView
+                android:id="@+id/user_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="点击登陆"
+                android:textColor="@color/light_white"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/tv_user_integral"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="积分：4332"
+                android:textColor="@color/light_white"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/bt_sig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_blue_bg"
+                android:text="签到"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <LinearLayout
+                android:id="@+id/links"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                >
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_nine"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_game_package"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="我的礼包"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/ic_right_back"/>
+                </RelativeLayout>
+                <!--<View
+                    android:background="@color/custom_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+                <RelativeLayout
+                    android:id="@+id/rl_two"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/xiezai"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="卸载游戏"
+                        />
+                </RelativeLayout>-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/custom_gray"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_reply_post"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_my_commoment"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="我的回贴"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/ic_right_back"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/custom_gray"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_three"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_my_collect"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="收藏"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/ic_right_back"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/custom_gray"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_my_message"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_my_message"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="我的消息"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/ic_right_back"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/custom_gray"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_four"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_my_post"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="我的帖子"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/ic_right_back"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/custom_gray"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_seven"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_download"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="下载管理"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/ic_right_back"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/custom_gray"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_letter"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_messgae"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="私信"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/ic_right_back"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/custom_gray"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_tools"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@mipmap/ic_tools"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="小工具"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/ic_right_back"/>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/custom_gray"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_eight"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="@dimen/x20"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_qq_group"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="加入官群"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/ic_right_back"/>
+                </RelativeLayout>
+                <!-- <View
+                    android:background="@color/custom_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+                <RelativeLayout
+                    android:id="@+id/rl_five"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/fankui"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="应用分享"
+                        />
+                </RelativeLayout>
+                <View
+                    android:background="@color/custom_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+                <RelativeLayout
+                    android:id="@+id/rl_six"
+                    style="@style/ManageRelativeLayout"
+                    android:layout_width="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/guanyu"/>
+
+                    <TextView
+                        style="@style/ManageTextView"
+                        android:layout_centerInParent="true"
+                        android:text="关于星宇"
+                        />
+                </RelativeLayout>-->
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginTop="@dimen/x8"
+        android:layout_marginLeft="@dimen/x8"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/image_head_messageOther"
+        android:layout_width="@dimen/x32"
+        android:layout_height="@dimen/x32" />
+    <TextView
+        android:textSize="@dimen/x10"
+        android:text="河图他老公浮若"
+        android:id="@+id/text_name_messageOther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text_time_fragmentMessage"
+        android:layout_alignLeft="@+id/text_content_messageOther"
+        android:layout_alignStart="@+id/text_content_messageOther" />
+    <TextView
+        android:textSize="@dimen/x11"
+        android:id="@+id/text_content_messageOther"
+        android:layout_below="@+id/text_name_messageOther"
+        android:text="我要好好的缠着你，从此立志得带特关"
+        android:layout_toRightOf="@+id/image_head_messageOther"
+        android:layout_marginTop="@dimen/x15"
+        android:layout_marginLeft="@dimen/x8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text_time_messageOther"
+        android:text="6小时前"
+        android:textColor="@color/item_fragmentMessage_time"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/x14"
+        android:layout_marginRight="@dimen/x10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listView_message_other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

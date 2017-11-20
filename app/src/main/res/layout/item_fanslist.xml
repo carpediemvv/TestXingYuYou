@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView_head_fans"
+        android:layout_width="@dimen/x34"
+        android:layout_height="@dimen/x34"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x8"
+       />
+
+    <TextView
+        android:id="@+id/textView_name_fans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x9"
+        android:layout_toRightOf="@+id/imageView_head_fans"
+        android:text="蜡笔小白"
+        android:focusable="false"
+        android:textSize="@dimen/x12" />
+
+    <ImageView
+        android:id="@+id/imageView_sex_fans"
+        android:layout_width="@dimen/x14"
+        android:layout_height="@dimen/x14"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/textView_name_fans"
+        android:src="@drawable/ic_action_girl" />
+
+
+    <Button
+        android:id="@+id/button_concern_fans"
+        android:focusable="false"
+        android:background="@drawable/other_buttonstyle"
+        android:textColor="@color/other_pink"
+        android:layout_width="59dp"
+        android:text="关注ta"
+        android:textSize="@dimen/x9"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/x250"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/x30" />
+
+    <TextView
+        android:layout_width="@dimen/x269"
+        android:layout_height="1px"
+        android:layout_below="@+id/textView_name_fans"
+        android:layout_marginLeft="@dimen/x51"
+        android:layout_marginTop="@dimen/x37"
+        android:background="#EAEAEA" />
+    </RelativeLayout>
+</LinearLayout>

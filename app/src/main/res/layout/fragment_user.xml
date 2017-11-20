@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_holder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/cover"
+        style="@style/Cover"
+        android:src="@mipmap/profile_cover"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp">
+
+        <com.xingyuyou.xingyuyou.weight.CircleImageView
+            android:id="@+id/user_photo"
+            android:layout_width="@dimen/profile_picture_size"
+            android:layout_height="@dimen/profile_picture_size"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/profile_picture"/>
+
+        <TextView
+            android:id="@+id/user_account_name"
+            style="@style/Name"
+            android:paddingTop="10dp"
+            android:text="账号"/>
+
+        <TextView
+            android:id="@+id/user_nickname"
+            style="@style/SubTitle"
+            android:text="昵称"/>
+
+        <ScrollView
+            android:paddingBottom="58dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/links"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/social_media_divider"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/social_media_vertical_padding"
+                android:paddingTop="@dimen/social_media_vertical_padding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_below="@id/image_one"
+                            android:gravity="center"
+                            android:text="游戏工具"
+                            />
+
+                        <ImageView
+                            android:padding="25dp"
+                            android:id="@+id/image_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/gongju"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:padding="25dp"
+                            android:id="@+id/image_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/gamegroup"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_below="@id/image_two"
+                            android:gravity="center"
+                            android:text="加入官群"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:padding="25dp"
+                            android:id="@+id/image_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/xiezai"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_below="@id/image_three"
+                            android:gravity="center"
+                            android:text="卸载游戏"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:padding="25dp"
+                            android:id="@+id/image_four"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/gameshezhi"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_below="@id/image_four"
+                            android:gravity="center"
+                            android:text="设置"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:padding="25dp"
+                            android:id="@+id/image_five"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/fenxaing"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_below="@id/image_five"
+                            android:gravity="center"
+                            android:text="应用反馈"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:padding="25dp"
+                            android:id="@+id/image_six"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/fankui"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_below="@id/image_six"
+                            android:gravity="center"
+                            android:text="应用分享"
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:padding="25dp"
+                            android:id="@+id/image_seven"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/guanyu"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_below="@id/image_seven"
+                            android:gravity="center"
+                            android:text="关于星宇"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:padding="25dp"
+                            android:id="@+id/image_eight"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/xiazai"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_below="@id/image_eight"
+                            android:gravity="center"
+                            android:text="下载管理"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:padding="25dp"
+                            android:id="@+id/image_nine"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/libao"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_below="@id/image_nine"
+                            android:gravity="center"
+                            android:text="我的礼包"
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

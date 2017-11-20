@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="mytitleText" format="string"/>
+    <attr name="mytitleTextColor" format="color"/>
+    <attr name="mytitleTextSize" format="dimension"/>
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="mytitleText"/>
+        <attr name="mytitleTextColor"/>
+        <attr name="mytitleTextSize"/>
+    </declare-styleable>
+    <!--loading-->
+    <declare-styleable name="LoadingLayout">
+
+        <attr name="isFirstVisible" format="boolean"></attr>
+
+    </declare-styleable>
+
+    <!--下载按钮-->
+    <declare-styleable name="progressbutton">
+        <attr name="progressColorr" format="color" />
+        <attr name="progressBgColor" format="color" />
+        <attr name="buttonNormalColor" format="color" />
+        <attr name="buttonPressedColor" format="color" />
+        <attr name="buttonCornerRadius" format="dimension"/>
+        <attr name="showProgressNum" format="boolean"/>
+    </declare-styleable>
+
+    <!--自定义progressbar-->
+    <declare-styleable name="HorizontalProgressBarWithTextProgress">
+        <attr name="progress_unreach_color" format="color"></attr>
+        <attr name="progress_unreach_height" format="dimension"></attr>
+        <attr name="progress_reach_color" format="color"></attr>
+        <attr name="progress_reach_height" format="dimension"></attr>
+        <attr name="progress_text_color" format="color"></attr>
+        <attr name="progress_text_size" format="dimension"></attr>
+        <attr name="progress_text_offset" format="dimension"></attr>
+    </declare-styleable>
+    <!--自定义打星控件-->
+    <declare-styleable name="RatingBar">
+        <!--尺寸值-->
+        <attr name="starImageSize" format="dimension" />
+        <!--星星间距-->
+        <attr name="starPadding" format="dimension" />
+        <!--星星总数-->
+        <attr name="starCount" format="integer" />
+        <!--空白的星星资源文件值-->
+        <attr name="starEmpty" format="reference" />
+        <!--满星资源文件值-->
+        <attr name="starFill" format="reference" />
+        <!--半星资源文件值-->
+        <attr name="starHalf" format="reference" />
+        <!--是否可点击boolean值-->
+        <attr name="clickable" format="boolean" />
+        <!--当前进度float值-->
+        <attr name="starStep" format="float" />
+        <!--每次进度方式的值，整星还是半星-->
+        <attr name="stepSize">
+            <enum name="Half" value="0" />
+            <enum name="Full" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CollapsedTextView">
+        <attr name="collapsedLines" format="integer" />
+        <attr name="expandedText" format="string" />
+        <attr name="collapsedText" format="string" />
+        <attr name="expandedDrawable" format="reference" />
+        <attr name="collapsedDrawable" format="reference" />
+        <attr name="tipsGravity">
+            <flag name="end" value="0" />
+            <flag name="bottom" value="1" />
+        </attr>
+        <attr name="tipsColor" format="reference|color" />
+        <attr name="tipsUnderline" format="boolean" />
+        <attr name="tipsClickable" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_commo_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple_bg"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x40"
+        android:layout_marginLeft="@dimen/x5"
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_user_photo"
+            android:layout_width="@dimen/x30"
+            android:layout_height="@dimen/x30"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x5"
+            android:scaleType="centerInside"
+            android:src="@mipmap/icon"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_user_photo"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/x20"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/x12"
+                    tools:text="7766"/>
+                <ImageView
+                    android:id="@+id/iv_user_medal"
+                    android:layout_width="@dimen/x20"
+                    android:layout_height="@dimen/x20"
+                    android:visibility="gone"
+                    android:layout_marginStart="@dimen/x3"
+                    android:layout_toEndOf="@id/tv_user_name"
+                    android:src="@drawable/ic_action_medal"/>
+                <TextView
+                    android:id="@+id/tv_louzhu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/textview_bg"
+                    android:padding="1dp"
+                    android:text="UP主"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/x8"
+                    android:visibility="gone"
+                    />
+                <ImageView
+                    android:id="@+id/iv_banzhu"
+                    android:layout_width="@dimen/x20"
+                    android:layout_height="@dimen/x15"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/x5"
+                    android:src="@drawable/ic_action_banzhu"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_post_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#9e9e9e"
+                android:textSize="@dimen/x10"
+                tools:text="7766"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_love_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x27"
+            android:layout_toLeftOf="@+id/tv_floor_num"
+            android:textColor="#9e9e9e"
+            android:visibility="visible"
+            tools:text="998"/>
+
+        <TextView
+            android:id="@+id/tv_floor_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x6"
+            android:gravity="center"
+            android:text="正在抢楼中"
+            android:textColor="#9e9e9e"
+            android:textSize="@dimen/x12"/>
+
+        <ImageView
+            android:id="@+id/iv_love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tv_love_num"
+            android:paddingBottom="@dimen/x10"
+            android:paddingLeft="@dimen/x10"
+            android:paddingTop="@dimen/x10"
+            android:src="@drawable/ic_zan"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x40">
+
+        <TextView
+            android:autoLink="email|phone|web"
+            android:textIsSelectable="true"
+            android:id="@+id/tv_commo_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="@dimen/x10"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="@dimen/x10"
+            android:lineSpacingMultiplier="1.2"
+            android:scaleType="fitXY"
+            android:textColor="@color/black"
+            android:textSize="@dimen/x14"
+
+            tools:text="平路的对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soi对方的soils的开发"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_root_image_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x40"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_more_commo_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/x40"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="5dp"
+            android:background="#b8b8b8"/>
+        <!--更改-->
+
+        <!--更改-->
+
+        <!---->
+        <RelativeLayout
+            android:id="@+id/re_more_commo_item_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:textSize="@dimen/x14"
+                android:id="@+id/tv_commo3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/other_pink"
+                tools:text="ceshi:"/>
+
+            <!--<TextView-->
+            <!--android:layout_marginRight="@dimen/x50"-->
+            <!--android:id="@+id/tv_commo3_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@+id/tv_commo3_name"-->
+            <!--tools:text="ceshi"/>-->
+
+            <!--<TextView-->
+            <!--android:layout_alignRight="@+id/tv_commo3_content"-->
+            <!--android:id="@+id/tv_commo3_time"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:textColor="#9e9e9e"-->
+            <!--android:textSize="@dimen/x10"-->
+            <!--tools:text="18.00"/>-->
+        </RelativeLayout>
+        <!---->
+
+        <ImageView
+            android:layout_width="@dimen/x40"
+            android:layout_height="@dimen/x12"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/x10"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:src="@drawable/ic_more_commo"
+            android:visibility="gone"
+            />
+
+        <RelativeLayout
+            android:id="@+id/re_more_commo_item_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+
+            >
+
+            <TextView
+                android:textSize="@dimen/x14"
+                android:layout_alignParentTop="true"
+                android:id="@+id/tv_commo2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/other_pink"
+                tools:text="ceshi:"/>
+
+            <!--<TextView-->
+            <!--android:layout_marginRight="@dimen/x50"-->
+            <!--android:id="@+id/tv_commo2_content"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@+id/tv_commo2_name"-->
+            <!--tools:text="ceshi"/>-->
+
+            <!--<TextView-->
+            <!--android:layout_alignRight="@+id/tv_commo2_content"-->
+            <!--android:id="@+id/tv_commo2_time"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:textSize="@dimen/x10"-->
+            <!--android:textColor="#9e9e9e"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--tools:text="18.00"/>-->
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_commo2_more"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/x14"
+            android:layout_gravity="right"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="@dimen/x5"
+            android:gravity="center"
+            android:text="查看全部评论>>"
+            android:textColor="@color/other_pink"
+            android:textSize="@dimen/x8"
+            android:visibility="visible"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#b8b8b8"/>
+</LinearLayout>

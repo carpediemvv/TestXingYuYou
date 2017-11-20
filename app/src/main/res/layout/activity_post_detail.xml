@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.xingyuyou.xingyuyou.activity.PostDetailActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/txt_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarSize="@dimen/x3"
+            android:scrollbarThumbVertical="@color/custom_gray">
+        </ListView>
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/widget_bottom_edit"/>
+
+</LinearLayout>

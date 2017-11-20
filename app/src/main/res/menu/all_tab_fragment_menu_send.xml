@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ab_send"
+        android:icon="@mipmap/ic_launcher"
+        android:title="私信"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/ab_search"
+        android:icon="@mipmap/ic_action_search_mg"
+        android:title="搜索游戏"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_download"
+        android:icon="@mipmap/ic_action_dowmload_mg"
+        android:title="下载管理"
+        app:showAsAction="always"/>
+
+
+</menu>

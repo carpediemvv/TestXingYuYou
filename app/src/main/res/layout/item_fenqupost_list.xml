@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x38"
+                android:layout_marginRight="@dimen/x38"
+                android:layout_marginTop="@dimen/x25"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_fenqu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="ceshi"
+        android:textColor="@color/black"
+        android:textSize="@dimen/x14"/>
+
+    <CheckBox
+        android:id="@+id/cb_fenqu_list"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>

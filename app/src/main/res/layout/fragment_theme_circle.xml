@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:paddingBottom="50dp"
+
+    >
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_height="wrap_content"
+       >
+        <android.support.v7.widget.RecyclerView
+            android:background="@color/white"
+            android:id="@+id/recycler_view"
+            android:overScrollMode="never"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ImageView
+        android:id="@+id/iv_theme_circle_search"
+        android:layout_width="@dimen/x30"
+        android:layout_height="@dimen/x30"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/x10"
+        android:layout_marginRight="@dimen/x10"
+        android:src="@drawable/ic_theme_circle_search"/>
+</FrameLayout>

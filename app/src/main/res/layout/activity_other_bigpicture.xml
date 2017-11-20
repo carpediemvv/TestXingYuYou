@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_other_bigpicture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.xingyuyou.xingyuyou.activity.OtherBigpictureActivity">
+<com.bm.library.PhotoView
+    android:id="@+id/photoView_bigPicture"
+    android:layout_centerInParent="true"
+    android:src="@mipmap/ic_launcher"
+    android:scaleType="fitCenter"
+    android:layout_marginLeft="@dimen/x55"
+    android:layout_marginTop="@dimen/x10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     />
+
+
+</RelativeLayout>

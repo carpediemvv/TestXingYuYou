@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/flexbox_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:alpha="1"
+    app:cardUseCompatPadding="false"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_cancel_well"
+            android:layout_width="@dimen/x140"
+            android:layout_height="@dimen/x40"
+            android:gravity="center"
+            android:text="取消加精"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:background="@color/custom_gray"/>
+
+        <TextView
+            android:id="@+id/tv_cancel_top"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x40"
+            android:gravity="center"
+            android:text="取消置顶"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:background="@color/custom_gray"/>
+
+        <TextView
+            android:id="@+id/tv_post_operation"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x40"
+            android:gravity="center"
+            android:text="子专区操作"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:background="@color/custom_gray"/>
+
+        <TextView
+            android:id="@+id/tv_delete_post"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x40"
+            android:gravity="center"
+            android:text="删除"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/x10"
+            android:layout_marginRight="@dimen/x10"
+            android:background="@color/custom_gray"/>
+
+        <TextView
+            android:id="@+id/tv_remove_post"
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x40"
+            android:gravity="center"
+            android:text="移除专区"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

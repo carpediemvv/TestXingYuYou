@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context="com.example.carpediem.testxingyuyou.MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_theme_circle_item_icon"
+        android:layout_marginTop="@dimen/x10"
+        android:layout_marginLeft="@dimen/x10"
+        android:layout_marginRight="@dimen/x10"
+        android:layout_marginBottom="@dimen/x5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/shape"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:text="aaaaa"
+        android:id="@+id/tv_item_theme_name"
+        android:textSize="@dimen/x11"
+        tools:text="ahahhahah"
+        android:textColor="#000000"
+
+        android:maxEms="7"
+        android:lines="1"
+        android:ellipsize="end"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_item_theme_concern_number"
+        android:text="sfsdff"
+        android:textSize="@dimen/x9"
+        tools:text="ahahhahah"
+        android:layout_marginBottom="@dimen/x2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
