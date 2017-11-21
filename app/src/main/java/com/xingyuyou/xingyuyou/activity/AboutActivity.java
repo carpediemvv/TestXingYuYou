@@ -31,7 +31,7 @@ public class AboutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+///11111
 
         //注释钱
         setContentView(R.layout.activity_about);
