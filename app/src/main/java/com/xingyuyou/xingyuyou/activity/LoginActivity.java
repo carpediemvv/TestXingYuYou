@@ -291,6 +291,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        Toast.makeText(this, "hahahahah", Toast.LENGTH_SHORT).show();
         DCAgent.resume(this);
         DCPage.onEntry("LoginActivity");
     }
